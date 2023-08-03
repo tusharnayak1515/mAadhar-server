@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mAadhar Test Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <groups>
+      <run>
+        <include name="chrome"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mAadhar.MAadharApplicationTests">
+        <methods>
+          <include name="generateReport"/>
+          <include name="OpenClientTest"/>
+          <include name="Setup"/>
+          <include name="checkStatus"/>
+          <include name="InitializeReport"/>
+          <include name="CloseProcess"/>
+        </methods>
+      </class> <!-- com.mAadhar.MAadharApplicationTests -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [mAadhar Test Suit] -->
